@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+require('../seamj.js').cli.run(process.argv);

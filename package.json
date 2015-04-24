@@ -1,0 +1,40 @@
+{
+  "name": "seamj",
+  "version": "0.1.7",
+  "description": "a wrapper of fis to build seajs project",
+  "main": "seamj.js",
+  "bin": {
+    "seamj": "bin/seamj"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chou0212/seamj.git"
+  },
+  "keywords": [
+    "fis",
+    "spm",
+    "seajs",
+    "requirejs",
+    "cmd",
+    "commonjs",
+    "modular",
+    "build"
+  ],
+  "author": "butterfly",
+  "license": "MIT",
+  "dependencies": {
+    "fis": "1.7.14",
+    "fis-parser-coffee-script": "^0.0.2",
+    "fis-parser-less": "^0.1.1",
+    "fis-parser-utc": "^0.0.2",
+    "fis-lint-jshint": "^0.0.9",
+    "fis-postpackager-sea": "^0.4.0",
+    "fis-postpackager-simple": "0.0.x"
+  },
+  "bugs": {
+    "url": "https://github.com/chou0212/seamj/issues"
+  }
+}
