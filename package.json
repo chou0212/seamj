@@ -7,7 +7,9 @@
     "seamj": "bin/seamj"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -32,9 +34,11 @@
     "fis-parser-utc": "^0.0.2",
     "fis-lint-jshint": "^0.0.9",
     "fis-postpackager-sea": "^0.4.0",
-    "fis-postpackager-simple": "0.0.x"
+    "fis-postpackager-simple": "0.0.x",
+    "snyk": "^1.88.1"
   },
   "bugs": {
     "url": "https://github.com/chou0212/seamj/issues"
-  }
+  },
+  "snyk": true
 }
